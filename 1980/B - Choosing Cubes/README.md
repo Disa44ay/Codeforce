@@ -1,0 +1,29 @@
+<h2><a href="https://codeforces.com/contest/1980/problem/B" target="_blank" rel="noopener noreferrer">1980B — Choosing Cubes</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1980B](https://codeforces.com/contest/1980/problem/B) |
+
+## Topics
+`sortings`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Choosing Cubes</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Dmitry has $$$n$$$ cubes, numbered from left to right from $$$1$$$ to $$$n$$$. The cube with index $$$f$$$ is his favorite.</p><p>Dmitry threw all the cubes on the table, and the $$$i$$$-th cube showed the value $$$a_i$$$ ($$$1 \le a_i \le 100$$$). After that, he arranged the cubes in non-increasing order of their values, from largest to smallest. If two cubes show the same value, they can go in any order.</p><p>After sorting, Dmitry removed the first $$$k$$$ cubes. Then he became interested in whether he removed his favorite cube (note that its position could have changed after sorting).</p><p>For example, if $$$n=5$$$, $$$f=2$$$, $$$a = [4, \color{green}3, 3, 2, 3]$$$ (the favorite cube is highlighted in green), and $$$k = 2$$$, the following could have happened:</p><ul> <li> After sorting $$$a=[4, \color{green}3, 3, 3, 2]$$$, since the favorite cube ended up in the second position, it will be removed. </li><li> After sorting $$$a=[4, 3, \color{green}3, 3, 2]$$$, since the favorite cube ended up in the third position, it will not be removed. </li></ul></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer $$$t$$$ ($$$1 \le t \le 1000$$$) — the number of test cases. Then follow the descriptions of the test cases.</p><p>The first line of each test case description contains three integers $$$n$$$, $$$f$$$, and $$$k$$$ ($$$1 \le f, k \le n \le 100$$$) — the number of cubes, the index of Dmitry's favorite cube, and the number of removed cubes, respectively.</p><p>The second line of each test case description contains $$$n$$$ integers $$$a_i$$$ ($$$1 \le a_i \le 100$$$) — the values shown on the cubes.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output one line — "<span class="tex-font-style-tt">YES</span>" if the cube will be removed in all cases, "<span class="tex-font-style-tt">NO</span>" if it will not be removed in any case, "<span class="tex-font-style-tt">MAYBE</span>" if it may be either removed or left.</p><p>You can output the answer in any case. For example, the strings "<span class="tex-font-style-tt">YES</span>", "<span class="tex-font-style-tt">nO</span>", "<span class="tex-font-style-tt">mAyBe</span>" will be accepted as answers.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0032603882596764666" id="id000560964550618539" class="input-output-copier">Copy</div></div><pre id="id0032603882596764666"><div class="test-example-line test-example-line-even test-example-line-0">12</div><div class="test-example-line test-example-line-odd test-example-line-1">5 2 2</div><div class="test-example-line test-example-line-odd test-example-line-1">4 3 3 2 3</div><div class="test-example-line test-example-line-even test-example-line-2">5 5 3</div><div class="test-example-line test-example-line-even test-example-line-2">4 2 1 3 5</div><div class="test-example-line test-example-line-odd test-example-line-3">5 5 2</div><div class="test-example-line test-example-line-odd test-example-line-3">5 2 4 1 3</div><div class="test-example-line test-example-line-even test-example-line-4">5 5 5</div><div class="test-example-line test-example-line-even test-example-line-4">1 2 5 4 3</div><div class="test-example-line test-example-line-odd test-example-line-5">5 5 4</div><div class="test-example-line test-example-line-odd test-example-line-5">3 1 2 4 5</div><div class="test-example-line test-example-line-even test-example-line-6">5 5 5</div><div class="test-example-line test-example-line-even test-example-line-6">4 3 2 1 5</div><div class="test-example-line test-example-line-odd test-example-line-7">6 5 3</div><div class="test-example-line test-example-line-odd test-example-line-7">1 2 3 1 2 3</div><div class="test-example-line test-example-line-even test-example-line-8">10 1 1</div><div class="test-example-line test-example-line-even test-example-line-8">1 1 1 1 1 1 1 1 1 1</div><div class="test-example-line test-example-line-odd test-example-line-9">1 1 1</div><div class="test-example-line test-example-line-odd test-example-line-9">42</div><div class="test-example-line test-example-line-even test-example-line-10">5 2 3</div><div class="test-example-line test-example-line-even test-example-line-10">2 2 1 1 2</div><div class="test-example-line test-example-line-odd test-example-line-11">2 1 1</div><div class="test-example-line test-example-line-odd test-example-line-11">2 1</div><div class="test-example-line test-example-line-even test-example-line-12">5 3 1</div><div class="test-example-line test-example-line-even test-example-line-12">3 3 2 3 2</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id006963488418804933" id="id0081193280237106" class="input-output-copier">Copy</div></div><pre id="id006963488418804933">MAYBE
+YES
+NO
+YES
+YES
+YES
+MAYBE
+MAYBE
+YES
+YES
+YES
+NO
+</pre></div></div></div>
