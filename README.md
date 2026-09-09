@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 93 | 17 |
+| 108 | 19 |
 
 ---
 
@@ -15,20 +15,22 @@
 - [*special](#special) (2)
 - [binary search](#binary-search) (4)
 - [bitmasks](#bitmasks) (1)
-- [brute force](#brute-force) (21)
+- [brute force](#brute-force) (26)
 - [combinatorics](#combinatorics) (2)
-- [constructive algorithms](#constructive-algorithms) (13)
+- [constructive algorithms](#constructive-algorithms) (16)
+- [data structures](#data-structures) (2)
 - [dp](#dp) (4)
 - [expression parsing](#expression-parsing) (1)
-- [games](#games) (3)
+- [games](#games) (5)
 - [geometry](#geometry) (3)
-- [greedy](#greedy) (29)
-- [implementation](#implementation) (54)
-- [math](#math) (33)
-- [number theory](#number-theory) (3)
-- [sortings](#sortings) (7)
-- [strings](#strings) (18)
-- [two pointers](#two-pointers) (5)
+- [greedy](#greedy) (38)
+- [hashing](#hashing) (1)
+- [implementation](#implementation) (61)
+- [math](#math) (35)
+- [number theory](#number-theory) (4)
+- [sortings](#sortings) (10)
+- [strings](#strings) (21)
+- [two pointers](#two-pointers) (6)
 
 ---
 
@@ -66,6 +68,10 @@
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.cpp) |
 | 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
+| 1784A | [Monsters (easy version)](https://codeforces.com/contest/1784/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1784/A%20-%20Monsters%20(easy%20version)/solution.cpp) |
+| 1874A | [Jellyfish and Game](https://codeforces.com/contest/1874/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1874/A%20-%20Jellyfish%20and%20Game/solution.cpp) |
+| 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1881/A%20-%20Don't%20Try%20to%20Count/solution.cpp) |
+| 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.cpp) |
 | 1931C | [Make Equal Again](https://codeforces.com/contest/1931/problem/C) | 1000 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1931/C%20-%20Make%20Equal%20Again/solution.cpp) |
 | 1972A | [Contest Proposal](https://codeforces.com/contest/1972/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1972/A%20-%20Contest%20Proposal/solution.cpp) |
 | 1979A | [Guess the Maximum](https://codeforces.com/contest/1979/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1979/A%20-%20Guess%20the%20Maximum/solution.cpp) |
@@ -79,6 +85,7 @@
 | 2033B | [Sakurako and Water](https://codeforces.com/contest/2033/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2033/B%20-%20Sakurako%20and%20Water/solution.cpp) |
 | 2036C | [Anya and 1100](https://codeforces.com/contest/2036/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2036/C%20-%20Anya%20and%201100/solution.cpp) |
 | 2043A | [Coin Transformation](https://codeforces.com/contest/2043/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2043/A%20-%20Coin%20Transformation/solution.cpp) |
+| 2065A | [Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2065/A%20-%20Skibidus%20and%20Amog'u/solution.cpp) |
 
 ### combinatorics
 
@@ -92,6 +99,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
+| 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
 | 1999B | [Card Game](https://codeforces.com/contest/1999/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1999/B%20-%20Card%20Game/solution.cpp) |
 | 2002A | [Distanced Coloring](https://codeforces.com/contest/2002/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2002/A%20-%20Distanced%20Coloring/solution.cpp) |
 | 2013B | [Battle for Survive](https://codeforces.com/contest/2013/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2013/B%20-%20Battle%20for%20Survive/solution.cpp) |
@@ -104,6 +112,15 @@
 | 2040B | [Paint a Strip](https://codeforces.com/contest/2040/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2040/B%20-%20Paint%20a%20Strip/solution.cpp) |
 | 2055A | [Two Frogs](https://codeforces.com/contest/2055/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2055/A%20-%20Two%20Frogs/solution.cpp) |
 | 2057A | [MEX Table](https://codeforces.com/contest/2057/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2057/A%20-%20MEX%20Table/solution.cpp) |
+| 2059A | [Milya and Two Arrays](https://codeforces.com/contest/2059/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2059/A%20-%20Milya%20and%20Two%20Arrays/solution.cpp) |
+| 2065A | [Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2065/A%20-%20Skibidus%20and%20Amog'u/solution.cpp) |
+
+### data structures
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 4C | [Registration System](https://codeforces.com/contest/4/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/4/C%20-%20Registration%20System/solution.cpp) |
+| 1702C | [Train and Queries](https://codeforces.com/contest/1702/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1702/C%20-%20Train%20and%20Queries/solution.cpp) |
 
 ### dp
 
@@ -124,6 +141,8 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1874A | [Jellyfish and Game](https://codeforces.com/contest/1874/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1874/A%20-%20Jellyfish%20and%20Game/solution.cpp) |
+| 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
 | 2030B | [Minimise Oneness](https://codeforces.com/contest/2030/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2030/B%20-%20Minimise%20Oneness/solution.cpp) |
 | 2055A | [Two Frogs](https://codeforces.com/contest/2055/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2055/A%20-%20Two%20Frogs/solution.cpp) |
 | 2060C | [Game of Mathletes](https://codeforces.com/contest/2060/problem/C) | 900 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2060/C%20-%20Game%20of%20Mathletes/solution.cpp) |
@@ -145,7 +164,14 @@
 | 158B | [Taxi](https://codeforces.com/contest/158/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/158/B%20-%20Taxi/solution.cpp) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/231/A%20-%20Team/solution.cpp) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
+| 381A | [Sereja and Dima](https://codeforces.com/contest/381/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/381/A%20-%20Sereja%20and%20Dima/solution.cpp) |
 | 1409A | [Yet Another Two Integers Problem](https://codeforces.com/contest/1409/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1409/A%20-%20Yet%20Another%20Two%20Integers%20Problem/solution.cpp) |
+| 1702C | [Train and Queries](https://codeforces.com/contest/1702/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1702/C%20-%20Train%20and%20Queries/solution.cpp) |
+| 1784A | [Monsters (easy version)](https://codeforces.com/contest/1784/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1784/A%20-%20Monsters%20(easy%20version)/solution.cpp) |
+| 1874A | [Jellyfish and Game](https://codeforces.com/contest/1874/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1874/A%20-%20Jellyfish%20and%20Game/solution.cpp) |
+| 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
+| 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1901/A%20-%20Line%20Trip/solution.cpp) |
+| 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.cpp) |
 | 1923A | [Moving Chips](https://codeforces.com/contest/1923/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1923/A%20-%20Moving%20Chips/solution.cpp) |
 | 1927A | [Make it White](https://codeforces.com/contest/1927/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1927/A%20-%20Make%20it%20White/solution.cpp) |
 | 1931B | [Make Equal](https://codeforces.com/contest/1931/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1931/B%20-%20Make%20Equal/solution.cpp) |
@@ -168,14 +194,24 @@
 | 2036B | [Startup](https://codeforces.com/contest/2036/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2036/B%20-%20Startup/solution.cpp) |
 | 2040B | [Paint a Strip](https://codeforces.com/contest/2040/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2040/B%20-%20Paint%20a%20Strip/solution.cpp) |
 | 2055A | [Two Frogs](https://codeforces.com/contest/2055/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2055/A%20-%20Two%20Frogs/solution.cpp) |
+| 2059A | [Milya and Two Arrays](https://codeforces.com/contest/2059/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2059/A%20-%20Milya%20and%20Two%20Arrays/solution.cpp) |
 | 2060C | [Game of Mathletes](https://codeforces.com/contest/2060/problem/C) | 900 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2060/C%20-%20Game%20of%20Mathletes/solution.cpp) |
+| 2065A | [Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2065/A%20-%20Skibidus%20and%20Amog'u/solution.cpp) |
+
+### hashing
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 4C | [Registration System](https://codeforces.com/contest/4/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/4/C%20-%20Registration%20System/solution.cpp) |
 
 ### implementation
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 4C | [Registration System](https://codeforces.com/contest/4/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/4/C%20-%20Registration%20System/solution.cpp) |
 | 32B | [Borze](https://codeforces.com/contest/32/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/32/B%20-%20Borze/solution.cpp) |
 | 41A | [Translation](https://codeforces.com/contest/41/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/41/A%20-%20Translation/solution.cpp) |
+| 44A | [Indian Summer](https://codeforces.com/contest/44/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/44/A%20-%20Indian%20Summer/solution.cpp) |
 | 59A | [Word](https://codeforces.com/contest/59/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/59/A%20-%20Word/solution.cpp) |
 | 69A | [Young Physicist](https://codeforces.com/contest/69/problem/A) | 1000 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/69/A%20-%20Young%20Physicist/solution.cpp) |
 | 96A | [Football](https://codeforces.com/contest/96/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/96/A%20-%20Football/solution.cpp) |
@@ -196,14 +232,18 @@
 | 282A | [Bit++](https://codeforces.com/contest/282/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/282/A%20-%20Bit%2B%2B/solution.cpp) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
 | 339B | [Xenia and Ringroad](https://codeforces.com/contest/339/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/339/B%20-%20Xenia%20and%20Ringroad/solution.cpp) |
+| 381A | [Sereja and Dima](https://codeforces.com/contest/381/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/381/A%20-%20Sereja%20and%20Dima/solution.cpp) |
 | 492B | [Vanya and Lanterns](https://codeforces.com/contest/492/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/492/B%20-%20Vanya%20and%20Lanterns/solution.cpp) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.cpp) |
+| 621A | [Wet Shark and Odd and Even](https://codeforces.com/contest/621/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/621/A%20-%20Wet%20Shark%20and%20Odd%20and%20Even/solution.cpp) |
 | 705A | [Hulk](https://codeforces.com/contest/705/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/705/A%20-%20Hulk/solution.cpp) |
 | 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
 | 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.cpp) |
 | 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.cpp) |
 | 977A | [Wrong Subtraction](https://codeforces.com/contest/977/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/977/A%20-%20Wrong%20Subtraction/solution.cpp) |
 | 1030A | [In Search of an Easy Problem](https://codeforces.com/contest/1030/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1030/A%20-%20In%20Search%20of%20an%20Easy%20Problem/solution.cpp) |
+| 1874A | [Jellyfish and Game](https://codeforces.com/contest/1874/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1874/A%20-%20Jellyfish%20and%20Game/solution.cpp) |
+| 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
 | 1923A | [Moving Chips](https://codeforces.com/contest/1923/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1923/A%20-%20Moving%20Chips/solution.cpp) |
 | 1926A | [Vlad and the Best of Five](https://codeforces.com/contest/1926/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1926/A%20-%20Vlad%20and%20the%20Best%20of%20Five/solution.cpp) |
 | 1926B | [Vlad and Shapes](https://codeforces.com/contest/1926/problem/B) | 800 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1926/B%20-%20Vlad%20and%20Shapes/solution.cpp) |
@@ -228,6 +268,7 @@
 | 2036A | [Quintomania](https://codeforces.com/contest/2036/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2036/A%20-%20Quintomania/solution.cpp) |
 | 2036C | [Anya and 1100](https://codeforces.com/contest/2036/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2036/C%20-%20Anya%20and%201100/solution.cpp) |
 | 2050A | [Line Breaks](https://codeforces.com/contest/2050/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2050/A%20-%20Line%20Breaks/solution.cpp) |
+| 2065A | [Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2065/A%20-%20Skibidus%20and%20Amog'u/solution.cpp) |
 
 ### math
 
@@ -243,6 +284,8 @@
 | 617A | [Elephant](https://codeforces.com/contest/617/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/617/A%20-%20Elephant/solution.cpp) |
 | 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
 | 1409A | [Yet Another Two Integers Problem](https://codeforces.com/contest/1409/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1409/A%20-%20Yet%20Another%20Two%20Integers%20Problem/solution.cpp) |
+| 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
+| 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1901/A%20-%20Line%20Trip/solution.cpp) |
 | 1931C | [Make Equal Again](https://codeforces.com/contest/1931/problem/C) | 1000 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1931/C%20-%20Make%20Equal%20Again/solution.cpp) |
 | 1977A | [Little Nikita](https://codeforces.com/contest/1977/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1977/A%20-%20Little%20Nikita/solution.cpp) |
 | 1980A | [Problem Generator](https://codeforces.com/contest/1980/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1980/A%20-%20Problem%20Generator/solution.cpp) |
@@ -273,6 +316,7 @@
 |---|---------|------------|----------|
 | 122A | [Lucky Division](https://codeforces.com/contest/122/problem/A) | 1000 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/122/A%20-%20Lucky%20Division/solution.cpp) |
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
+| 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
 | 2007A | [Dora's Set](https://codeforces.com/contest/2007/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2007/A%20-%20Dora's%20Set/solution.cpp) |
 
 ### sortings
@@ -281,10 +325,13 @@
 |---|---------|------------|----------|
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
 | 492B | [Vanya and Lanterns](https://codeforces.com/contest/492/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/492/B%20-%20Vanya%20and%20Lanterns/solution.cpp) |
+| 1896A | [Jagged Swaps](https://codeforces.com/contest/1896/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1896/A%20-%20Jagged%20Swaps/solution.cpp) |
+| 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.cpp) |
 | 1976A | [Verify Password](https://codeforces.com/contest/1976/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1976/A%20-%20Verify%20Password/solution.cpp) |
 | 1980B | [Choosing Cubes](https://codeforces.com/contest/1980/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1980/B%20-%20Choosing%20Cubes/solution.cpp) |
 | 2030A | [A Gift From Orangutan](https://codeforces.com/contest/2030/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2030/A%20-%20A%20Gift%20From%20Orangutan/solution.cpp) |
 | 2036B | [Startup](https://codeforces.com/contest/2036/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2036/B%20-%20Startup/solution.cpp) |
+| 2059A | [Milya and Two Arrays](https://codeforces.com/contest/2059/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2059/A%20-%20Milya%20and%20Two%20Arrays/solution.cpp) |
 | 2060C | [Game of Mathletes](https://codeforces.com/contest/2060/problem/C) | 900 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2060/C%20-%20Game%20of%20Mathletes/solution.cpp) |
 
 ### strings
@@ -303,17 +350,21 @@
 | 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.cpp) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
 | 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.cpp) |
+| 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1881/A%20-%20Don't%20Try%20to%20Count/solution.cpp) |
+| 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
 | 1927A | [Make it White](https://codeforces.com/contest/1927/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1927/A%20-%20Make%20it%20White/solution.cpp) |
 | 1971B | [Different String](https://codeforces.com/contest/1971/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1971/B%20-%20Different%20String/solution.cpp) |
 | 1976A | [Verify Password](https://codeforces.com/contest/1976/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1976/A%20-%20Verify%20Password/solution.cpp) |
 | 1997A | [Strong Password](https://codeforces.com/contest/1997/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1997/A%20-%20Strong%20Password/solution.cpp) |
 | 2000A | [Primary Task](https://codeforces.com/contest/2000/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2000/A%20-%20Primary%20Task/solution.cpp) |
 | 2025A | [Two Screens](https://codeforces.com/contest/2025/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2025/A%20-%20Two%20Screens/solution.cpp) |
+| 2065A | [Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2065/A%20-%20Skibidus%20and%20Amog'u/solution.cpp) |
 
 ### two pointers
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 381A | [Sereja and Dima](https://codeforces.com/contest/381/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/381/A%20-%20Sereja%20and%20Dima/solution.cpp) |
 | 1972A | [Contest Proposal](https://codeforces.com/contest/1972/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1972/A%20-%20Contest%20Proposal/solution.cpp) |
 | 2000B | [Seating in a Bus](https://codeforces.com/contest/2000/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2000/B%20-%20Seating%20in%20a%20Bus/solution.cpp) |
 | 2025A | [Two Screens](https://codeforces.com/contest/2025/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/2025/A%20-%20Two%20Screens/solution.cpp) |
