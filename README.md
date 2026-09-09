@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 2 | 2 |
+| 3 | 2 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [implementation](#implementation) (2)
+- [implementation](#implementation) (3)
 - [strings](#strings) (1)
 
 ---
@@ -23,6 +23,7 @@
 |---|---------|------------|----------|
 | 118A | [String Task](https://codeforces.com/contest/118/problem/A) | 1000 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/118/A%20-%20String%20Task/solution.cpp) |
 | 705A | [Hulk](https://codeforces.com/contest/705/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/705/A%20-%20Hulk/solution.cpp) |
+| 1030A | [In Search of an Easy Problem](https://codeforces.com/contest/1030/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Disa44ay/Codeforce/blob/HEAD/1030/A%20-%20In%20Search%20of%20an%20Easy%20Problem/solution.cpp) |
 
 ### strings
 
